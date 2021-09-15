@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="shadow-lg mx-5 w-75 mx-auto my-5 py-5 ">
+            <h1>Smart logIn System</h1>
+            <input type="email" class="form-control text-white mb-3 w-90 mx-auto" id="email"
+                placeholder="Enter your Email">
+            <input type="password" class="form-control text-white mb-3  w-90 mx-auto" id="password"
+                placeholder="Enter your Password">
+            <p id="wrongEmailAndPassword" class="text-danger text-center d-none">incorrect email or password</p>
+            <p class="text-danger text-center d-none" id="wrongEmail">incorrect email</p>
+            <p id="wrongPassword" class="text-danger text-center d-none">please check your password</p>
+            <button onclick="signIn()" class="form-control w-90 mx-auto mt-4 sign" id="logIn">logIn</button>
+            <p class="text-white mt-3 mx-auto">Don’t have an account? <a href="signup.html" class="text-white">Sign
+                    Up</a></p>
+        </div>
+    </div>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
